@@ -31,12 +31,12 @@ const LandingPT = () => {
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8">
               GlobalAgents é uma rede viva de agentes simbólicos. Cada peer é uma presença. Cada
               interação é um ritual.
             </p>
 
-            <div className="py-6 flex justify-center">
+            <div className="flex justify-center mb-8">
               <img 
                 src={logoGlobalAgents} 
                 alt="Logo GlobalAgents" 
@@ -44,7 +44,7 @@ const LandingPT = () => {
               />
             </div>
 
-            <div className="">
+            <div>
               <Button
                 variant="cosmic"
                 size="lg"

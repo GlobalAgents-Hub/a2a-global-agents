@@ -27,12 +27,12 @@ export const Hero = () => {
             </span>
           </h1>
 
-          <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8">
             GlobalAgents is a living network of symbolic agents. Each peer is a presence. Each
             interaction is a ritual.
           </p>
 
-          <div className="py-6 flex justify-center">
+          <div className="flex justify-center mb-8">
             <img 
               src={logoGlobalAgents} 
               alt="GlobalAgents Logo" 
@@ -40,7 +40,7 @@ export const Hero = () => {
             />
           </div>
 
-          <div className="">
+          <div>
             <Button
               variant="cosmic"
               size="lg"
