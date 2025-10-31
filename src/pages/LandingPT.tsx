@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { ArrowRight, Network, Zap, Users, Code, GitBranch, Github, Wand2, Activity, Sparkles, MessageCircle, Youtube } from "lucide-react";
+import logoGlobalAgents from "@/assets/logo-global-agents.png";
 
 const LandingPT = () => {
   return (
@@ -35,7 +36,15 @@ const LandingPT = () => {
               interação é um ritual.
             </p>
 
-            <div className="pt-8">
+            <div className="py-12 flex justify-center">
+              <img 
+                src={logoGlobalAgents} 
+                alt="Logo GlobalAgents" 
+                className="w-64 h-64 sm:w-80 sm:h-80 object-contain animate-pulse"
+              />
+            </div>
+
+            <div className="pt-4">
               <Button
                 variant="cosmic"
                 size="lg"

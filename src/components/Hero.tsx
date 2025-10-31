@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import logoGlobalAgents from "@/assets/logo-global-agents.png";
 
 export const Hero = () => {
   return (
@@ -31,7 +32,15 @@ export const Hero = () => {
             interaction is a ritual.
           </p>
 
-          <div className="pt-8">
+          <div className="py-12 flex justify-center">
+            <img 
+              src={logoGlobalAgents} 
+              alt="GlobalAgents Logo" 
+              className="w-64 h-64 sm:w-80 sm:h-80 object-contain animate-pulse"
+            />
+          </div>
+
+          <div className="pt-4">
             <Button
               variant="cosmic"
               size="lg"
