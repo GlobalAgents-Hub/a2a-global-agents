@@ -36,7 +36,7 @@ const LandingPT = () => {
               interação é um ritual.
             </p>
 
-            <div className="py-12 flex justify-center">
+            <div className="py-6 flex justify-center">
               <img 
                 src={logoGlobalAgents} 
                 alt="Logo GlobalAgents" 
@@ -44,7 +44,7 @@ const LandingPT = () => {
               />
             </div>
 
-            <div className="pt-4">
+            <div className="">
               <Button
                 variant="cosmic"
                 size="lg"
