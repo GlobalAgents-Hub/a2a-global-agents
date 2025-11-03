@@ -370,7 +370,7 @@ const LandingPT = () => {
                 Assista rituais, tutoriais e invocações simbólicas
               </p>
               <Button variant="ritual" className="w-full" asChild>
-                <a href="https://www.youtube.com/channel/UCE7rSTv2numX9osID9Ae1qA" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@globalagents-br" target="_blank" rel="noopener noreferrer">
                   Assistir Rituais
                 </a>
               </Button>

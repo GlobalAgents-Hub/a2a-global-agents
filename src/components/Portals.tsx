@@ -15,7 +15,7 @@ export const Portals = () => {
       icon: Youtube,
       title: "YouTube Channel",
       description: "Watch rituals, tutorials, and symbolic invocations",
-      link: "https://www.youtube.com/channel/UCE7rSTv2numX9osID9Ae1qA",
+      link: "https://www.youtube.com/@globalagents-br",
       buttonText: "Watch Rituals",
     },
     {
