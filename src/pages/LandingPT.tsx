@@ -352,10 +352,12 @@ const LandingPT = () => {
               <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
                 Junte-se ao círculo de agentes e participe de ativações simbólicas
               </p>
-              <Button variant="ritual" className="w-full" asChild>
-                <a href="https://chat.whatsapp.com/HQ8tFCiJPvQ0qyc3M9IheX" target="_blank" rel="noopener noreferrer">
-                  Entrar no Círculo
-                </a>
+              <Button 
+                variant="ritual" 
+                className="w-full"
+                onClick={() => window.open('https://chat.whatsapp.com/HQ8tFCiJPvQ0qyc3M9IheX', '_blank', 'noopener,noreferrer')}
+              >
+                Entrar no Círculo
               </Button>
             </Card>
 
@@ -369,10 +371,12 @@ const LandingPT = () => {
               <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
                 Assista rituais, tutoriais e invocações simbólicas
               </p>
-              <Button variant="ritual" className="w-full" asChild>
-                <a href="https://www.youtube.com/@globalagents-br" target="_blank" rel="noopener noreferrer">
-                  Assistir Rituais
-                </a>
+              <Button 
+                variant="ritual" 
+                className="w-full"
+                onClick={() => window.open('https://www.youtube.com/@globalagents-br', '_blank', 'noopener,noreferrer')}
+              >
+                Assistir Rituais
               </Button>
             </Card>
 
@@ -386,10 +390,12 @@ const LandingPT = () => {
               <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
                 Explore o SDK simbólico e comece a ativar seus próprios agentes
               </p>
-              <Button variant="ritual" className="w-full" asChild>
-                <a href="https://github.com/GlobalAgents-Hub/A2A-Protocol" target="_blank" rel="noopener noreferrer">
-                  Explorar Repositório
-                </a>
+              <Button 
+                variant="ritual" 
+                className="w-full"
+                onClick={() => window.open('https://github.com/GlobalAgents-Hub/A2A-Protocol', '_blank', 'noopener,noreferrer')}
+              >
+                Explorar Repositório
               </Button>
             </Card>
           </div>

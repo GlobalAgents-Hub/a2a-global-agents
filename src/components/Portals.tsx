@@ -56,10 +56,12 @@ export const Portals = () => {
                 <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">
                   {portal.description}
                 </p>
-                <Button variant="ritual" className="w-full" asChild>
-                  <a href={portal.link} target="_blank" rel="noopener noreferrer">
-                    {portal.buttonText}
-                  </a>
+                <Button 
+                  variant="ritual" 
+                  className="w-full"
+                  onClick={() => window.open(portal.link, '_blank', 'noopener,noreferrer')}
+                >
+                  {portal.buttonText}
                 </Button>
               </Card>
             );
