@@ -1,6 +1,7 @@
 import { Hero } from "@/components/Hero";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { About } from "@/components/About";
+import { Philosophy } from "@/components/Philosophy";
 import { ConceptVideo } from "@/components/ConceptVideo";
 import { SDK } from "@/components/SDK";
 import { RitualTemplates } from "@/components/RitualTemplates";
@@ -13,6 +14,7 @@ const Landing = () => {
       <LanguageSwitcher />
       <Hero />
       <About />
+      <Philosophy />
       <ConceptVideo />
       <SDK />
       <RitualTemplates />
