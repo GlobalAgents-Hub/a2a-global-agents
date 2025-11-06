@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { PhilosophyPT } from "@/components/PhilosophyPT";
+import { RoadmapPT } from "@/components/RoadmapPT";
 import { ArrowRight, Network, Zap, Users, Code, GitBranch, Github, Wand2, Activity, Sparkles, MessageCircle, Youtube } from "lucide-react";
 import logoGlobalAgents from "@/assets/logo-global-agents.png";
 
@@ -133,6 +135,9 @@ const LandingPT = () => {
           </div>
         </div>
       </section>
+
+      <PhilosophyPT />
+      <RoadmapPT />
 
       {/* Video */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-background to-[hsl(260,50%,10%)]">
