@@ -8,6 +8,7 @@ import { SDK } from "@/components/SDK";
 import { RitualTemplates } from "@/components/RitualTemplates";
 import { CallToAction } from "@/components/CallToAction";
 import { Portals } from "@/components/Portals";
+import { Origins } from "@/components/Origins";
 
 const Landing = () => {
   return (
@@ -22,6 +23,7 @@ const Landing = () => {
       <RitualTemplates />
       <CallToAction />
       <Portals />
+      <Origins />
       
       {/* Footer */}
       <footer className="py-8 px-4 text-center border-t border-border/50">
