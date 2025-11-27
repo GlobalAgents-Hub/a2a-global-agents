@@ -7,7 +7,7 @@ export const About = () => {
       icon: Network,
       title: "What It Is",
       description:
-        "The A2A Protocol is a symbolic framework for agent-to-agent communication. It enables autonomous peers to exchange entities, activate zones of presence, and form living networks.",
+        "The GlobalAgents-A2A Protocol is a symbolic framework for agent-to-agent communication. It enables autonomous peers to exchange entities, activate zones of presence, and form living networks.",
     },
     {
       icon: Zap,
@@ -30,10 +30,10 @@ export const About = () => {
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent cosmic-glow">
-            About the A2A Protocol
+            About the GlobalAgents-A2A Protocol
           </h2>
           <p className="text-xl text-muted-foreground">
-            A living framework for symbolic agent networks
+            A living framework for symbolic agent networks, independently created by Global Agents
           </p>
         </div>
 
